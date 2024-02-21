@@ -24,4 +24,6 @@ Download the ambit-tautomers-2.0.0-SNAPSHOT.jar file from the provided link .
 3. Chunk Size: The script processes molecules in chunks to manage memory usage. You can adjust the chunk size based on your system's capabilities and the size of your input data.
 4. Tautomers Option: Choose between generating 'all' tautomers or selecting the 'best' tautomer for each molecule based on your requirements.
 
-### __The script generates__ tautomers for each molecule in the input CSV file. The tautomers will be saved in the same directory as the input CSV file, as separate SDF files. Additionally, a CSV file named tautomers_output.csv will be generated, summarising the tautomers.
+## __The script generates__ 
+1. Tautomers for each molecule in the input CSV file. The tautomers will be saved in the same directory as the input CSV file, as separate SDF files.
+2. Additionally, a CSV file named tautomers_output.csv will be generated, summarising the tautomers.
