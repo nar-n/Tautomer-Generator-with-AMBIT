@@ -16,7 +16,7 @@ Before running this code, ensure you have the following dependencies installed:
 2. Download the ambit-tautomers-2.0.0-SNAPSHOT.jar from the provided link (https://sourceforge.net/projects/ambit/files/Ambit2/AMBIT%20applications/tautomers/ambit-tautomers-2.0.0-SNAPSHOT.jar) and ensure you have Java installed on your system.
 
 ## __Please note that:__
-1. CSV and JAR Location: Ensure both the input CSV file and the ambit-tautomers-2.0.0-SNAPSHOT.jar file are in the same folder as the python script file.
+1. CSV and JAR files location: Ensure both the input CSV file and the ambit-tautomers-2.0.0-SNAPSHOT.jar file are in the same folder as the python script file.
 2. Input csv file name: Specify the input csv file name in the script.
 3. Chunk Size: The script processes molecules in chunks to manage memory usage. You can adjust the chunk size based on your system's capabilities and the size of your input data.
 4. Tautomers Option: Choose between generating 'all' tautomers or selecting the 'best' tautomer for each molecule based on your requirements.
