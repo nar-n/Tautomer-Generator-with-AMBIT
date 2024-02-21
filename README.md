@@ -18,8 +18,7 @@ Before running this code, ensure you have the following dependencies installed:
 ## __Please note that:__
 1. CSV and JAR files location: Ensure both the input CSV file and the ambit-tautomers-2.0.0-SNAPSHOT.jar file are in the same folder as the python script file.
 2. Input csv file name: Specify the input csv file name in the script.
-3. Chunk Size: The script processes molecules in chunks to manage memory usage. You can adjust the chunk size based on your system's capabilities and the size of your input data.
-4. Tautomers Option: Choose between generating 'all' tautomers or selecting the 'best' tautomer for each molecule based on your requirements.
+3. Tautomers Option: Choose between generating 'all' tautomers or selecting the 'best' tautomer for each molecule based on your requirements.
 
 ## __The script generates__ 
 1. Tautomers for each molecule in the input CSV file. The tautomers will be saved in the same directory as the input CSV file, as separate SDF files.
