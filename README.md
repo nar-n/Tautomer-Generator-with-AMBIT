@@ -1,4 +1,4 @@
-Tautomer Generator
+__Tautomer Generator__
 
 This script automates the generation of tautomers from a CSV file containing SMILES and molecule IDs. It utilises the open-source Java library "ambit-tautomers-2.0.0-SNAPSHOT" for tautomer generation.
 
