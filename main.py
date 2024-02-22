@@ -87,10 +87,7 @@ def create_tautomers_csv(output_tautomers, tautomers_option):
 
                 df_list.append({
                     'SMILES': smiles,
-                    'MoleculeID': mol_id,
-                    'Tautomer_SMILES': tautomer_smiles,
-                    'Tautomer_Rank': tautomer_rank,
-                    'TautomerID': tautomer_id
+                    'MoleculeID': mol_id
                 })
 
         # Convert the list of dictionaries to a DataFrame
@@ -107,7 +104,7 @@ def create_tautomers_csv(output_tautomers, tautomers_option):
     print(f"Tautomers CSV file generated successfully: {output_csv}")
 
 def main():
-    # Replace 'your_input_file.csv' with your actual CSV file name
+    ####### Replace 'your_input_file.csv' with your actual CSV file name ########
     csv_file = 'test.csv'
     tautomers_option = 'all'  # Specify 'all' or 'best' based on your requirements
 
